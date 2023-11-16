@@ -36,7 +36,7 @@ export default function Menu() {
           <li className="border-black border p-2 rounded-full m-1 bg-blue-500">
             <Link className="w-full justify-center flex" href="/sobre">Sobre</Link>
           </li>
-          <li className="border-black border p-2 rounded-full m-1 bg-blue-500">
+          <li className="border-black border p-2 rounded-full m-1 bg-red-950">
             <Link className="w-full justify-center flex" href="/contato">Contato</Link>
           </li>
         </ul>
