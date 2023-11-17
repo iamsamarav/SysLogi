@@ -26,7 +26,7 @@ export default function Menu() {
   };
 
   return (
-    <div className="flex items-center justify-center h-full text-xl flex-col row-span-3 col-start-5 col-end-6">
+    <div className="flex items-center justify-center h-full text-xl flex-col col-start-4 col-end-5">
       <TfiMenu onClick={toggleTransform} className="h-20 w-7 absolute cursor-pointer" />
       <animated.div className={menuClose ? "relative -bottom-28 rounded-2xl text-black box-border w-52 bg-blue-600 border border-black" : 'hidden'} style={fade}>
         <ul>
