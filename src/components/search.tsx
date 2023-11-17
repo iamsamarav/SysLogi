@@ -1,7 +1,5 @@
-import { FaRegEdit, FaSearch } from "react-icons/fa";
-import { CgAdd, CgPen, CgTrashEmpty } from "react-icons/cg";
-import { FiChevronDown } from "react-icons/fi";
 import { animated } from "react-spring";
+import { FaSearch } from "react-icons/fa";
 
 export default function Search() {
 
@@ -17,14 +15,11 @@ export default function Search() {
                 <div className="flex items-center border w-10 h-10 justify-around rounded-full p-2 border-black cursor-pointer bg-white">
                 <CgAdd/>
                 </div>
-                <div className="flex items-center border  w-10 h-10 justify-around rounded-full p-2 border-black cursor-pointer bg-white">
+                <div className="flex items-center border w-10 h-10 justify-around rounded-full p-2 border-black cursor-pointer bg-white">
                 <FaRegEdit/>
                 </div>
                 <div className="flex items-center border w-10 h-10 justify-around rounded-full p-2 border-black cursor-pointer bg-white">
                 <CgTrashEmpty/>
-                </div>
-                <div className="flex items-center border w-10 h-10 justify-around rounded-full p-2 border-black cursor-pointer bg-white">
-                <FiChevronDown/>
                 </div>
             </div>
         </div>
