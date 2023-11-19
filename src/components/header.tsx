@@ -30,12 +30,12 @@ export default function Header({ page }: HeaderProps) {
     return (
         <div className="grid grid-cols-4 bg-blue-header w-screen h-full row-start-1 row-end-2 column-span-4 text-white first-letter">
             <div className="h-full flex flex-col justify-center items-left col-start-1 col-end-2 text-center">
-                <Link href="/" className={`${alatsi.className} text-6xl`}>SysLogi</Link>
+                <Link href="/" className={`${alatsi.className} text-6xl sm:text-4xl md:text-5x1 lg:text-6x1`}>SysLogi</Link>
                 <h2 className={`text-3xl ${oswald.className}`}>{page}</h2>
             </div>
             <div className="w-full col-start-2 col-end-4 flex flex-row justify-around">
                 <Search action={true} />
-                <div className="flex justify-around w-1/4 items-center">
+                <div className="flex justify-around sm:w-2/6 lg: items-center">
                     <ButtonHeader icon={<CgAdd />} />
                     <ButtonHeader icon={<CgTrashEmpty />} />
                     <ButtonHeader icon={<FaRegEdit />} />

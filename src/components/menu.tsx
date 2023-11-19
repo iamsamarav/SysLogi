@@ -8,7 +8,7 @@ export default function Menu() {
 
   const fade = useSpring({
     opacity: menuOpen ? 1 : 0,
-    y: menuOpen ? 0 : -20,
+    y: menuOpen ? 0 : -10,
     onRest: () => {
       if (!menuOpen) {
         setMenuClose(false);
