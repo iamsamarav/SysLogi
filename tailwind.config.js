@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        'blue-header': '#009cf1'
+        'blue-header': 'var(--blue-header)'
       }
     },
     screens: {
